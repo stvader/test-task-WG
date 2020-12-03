@@ -1,0 +1,21 @@
+$elem-height: 28px;
+
+.element {
+  margin-right: 30px;
+  display: inline-block;
+  height: $elem-height;
+  padding: 0 10px;
+  border: 1px solid #a7a7a7;
+  border-radius: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.element-title {
+  margin-right: 10px;
+  vertical-align: middle;
+  line-height: $elem-height;
+  font-size: 14px;
+}

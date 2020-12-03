@@ -1,0 +1,1 @@
+export const ELEMENTS_LIMIT = 3;
